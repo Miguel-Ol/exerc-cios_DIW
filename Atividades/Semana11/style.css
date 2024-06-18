@@ -1,0 +1,17 @@
+button {
+    padding: 0;
+    border: none;
+    background: none;
+  }
+
+  li{
+    background-color: white;
+  }
+
+  .sfeito{
+    background-color: rgb(0, 255, 102);
+  }
+
+  .icons{
+    width: 2rem;
+  }

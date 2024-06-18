@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Básica</title>
+</head>
+
+<body>
+
+<h1>Calculadora Básica</h1>
+
+<script>
+    function nconf(num) {
+    let numver = parseFloat(num);
+
+    if (!isNaN(numver)) {
+        return numver;
+    } else {
+        alert('Erro: A variável deve ser um número.');
+        return false;
+    }
+}
+
+    alert("escolha qual operação deseja fazer");
+    var menu = confirm("se sua conta é de adição ou subtração, escolha \'OK\'\n se for de multiplicação ou divisão escolha \'Cancelar\'");
+    if(menu){
+        let adsub = confirm("se sua conta é de adição escolha \'OK\'\n se for de subtração escolha \'Cancelar\'");
+        if(adsub){
+            do {
+    var num1 = nconf(prompt("Digite o primeiro número:"));
+} while (num1 === false);
+do {
+var num2 = nconf(prompt("Digite o segundo número:"));
+} while (num2 === false);
+        let result = parseInt(num1) + parseInt(num2);
+        alert("a soma dos números é: " + result);
+        }
+        else{
+            do {
+    var num1 = nconf(prompt("Digite o primeiro número:"));
+} while (num1 === false);
+do {
+var num2 = nconf(prompt("Digite o segundo número:"));
+} while (num2 === false);
+        let result = parseInt(num1) - parseInt(num2);
+        alert("a subtração dos números é: " + result);
+        }
+    }
+    else{
+        let adsub = confirm("se sua conta é de multiplição escolha \'OK\'\n se for de divisão escolha \'Cancelar\'");
+        if(adsub){
+            do {
+    var num1 = nconf(prompt("Digite o primeiro número:"));
+} while (num1 === false);
+do {
+var num2 = nconf(prompt("Digite o segundo número:"));
+} while (num2 === false);
+        let result = parseInt(num1) * parseInt(num2);
+        alert("a multiplicação dos números é: " + result);
+        }
+        else{
+            do {
+    var num1 = nconf(prompt("Digite o primeiro número:"));
+} while (num1 === false);
+do {
+var num2 = nconf(prompt("Digite o segundo número:"));
+} while (num2 === false || num2 == 0);
+        let result = parseInt(num1) / parseInt(num2);
+        alert("a divisão dos números é: " + result);
+        }
+    }
+</script>
+</body>
+</html> 

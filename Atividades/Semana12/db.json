@@ -1,0 +1,46 @@
+{
+  "jogos": [
+    {
+      "id": 1,
+      "titulo": "Hotline Miami Collection",
+      "descricao": "Uma série brutalmente desafiadora e cheia de neon. Contém os dois jogos Hotline Miami, com ação intensa, tiroteios e combate corpo a corpo. Explore locais sombrios e enfrente inimigos em sequência",
+      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202309/1318/4b7fd90ba11d243c7eacfd6caaa9bb3183d0c6a6e97bc17a.png",
+      "detalheadd": "https://www.xbox.com/pt-BR/games/store/hotline-miami-collection/9N69G2L33Z7S"
+    },
+    {
+      "id": 2,
+      "titulo": "Dark Souls 3",
+      "descricao": "Dark Souls III é um jogo do gênero RPG de ação, o quarto da série Souls, desenvolvido pela FromSoftware. Situado no reino de Lothric, um mundo devastado pela guerra e decadência, o jogo oferece combate intenso, mecânicas de magia e visuais impressionantes",
+      "imagem": "https://image.api.playstation.com/cdn/UP0700/CUSA03388_00/v8JlD8KcQUtTqaLBmpFnj1ESRR5zMkLk.png",
+      "detalheadd": "https://www.xbox.com/pt-br/games/store/dark-souls-iii/bw2xdrnsccpz"
+    },
+    {
+      "id": 3,
+      "titulo": "Inscryption",
+      "descricao": "Inscryption é uma odisseia negra, um jogo de cartas roguelike com quebra-cabeças de “escape-room”, construção de baralhos e terror psicológico. Os segredos gravados nas cartas são ainda mais sombrios",
+      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202206/1621/OEZOTYnG11FGrewAwYdJ3EQF.png",
+      "detalheadd": "https://www.xbox.com/pt-br/games/store/inscryption/9p8nstdmz11p"
+    },
+    {
+      "id": 4,
+      "titulo": "Cuphead",
+      "descricao": "Cuphead é um jogo de ação e tiros clássico, com foco em batalhas de chefes. Inspirado nas animações infantis dos anos 30, possui visuais desenhados à mão e efeitos sonoros originais de jazz",
+      "imagem": "https://image.api.playstation.com/vulcan/img/cfn/11307fllh6D-IvbpCa18N0vRggVeRYWA06paTNCj3DENJMScAzW2f3ry4IwFcXBAt9kWXdZGpGoOGjxJ_e9MdordMVAosNhZ.png",
+      "detalheadd": "https://www.xbox.com/pt-br/games/store/cuphead/9njrx71m5x9p"
+    },
+    {
+      "id": 5,
+      "titulo": "Metal Gear Solid V: The Phantom Pain",
+      "descricao": "MGSV: The Phantom Pain é um jogo de ação e tiros em mundo aberto. Com a inovadora tecnologia da Fox Engine, oferece liberdade tática para desenvolver missões em um mundo aberto, com cenários de guerra durante a Guerra Fria",
+      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202010/0205/dyvo9eGUf7WTZx49eTpQyDuL.png",
+      "detalheadd": "https://www.xbox.com/pt-br/games/store/metal-gear-solid-v-the-phantom-pain/c253hwjp0l18"
+    },
+    {
+      "id": 6,
+      "titulo": "Darkest Dungeon",
+      "descricao": "Darkest Dungeon é um RPG gótico desafiante em turnos, onde você lidera uma equipe de heróis imperfeitos através de florestas corrompidas, labirintos esquecidos e criptas arruinadas. O jogo explora os estresses psicológicos vivenciados em aventuras, com morte permanente e estratégia intensa",
+      "imagem": "https://image.api.playstation.com/cdn/UP2619/CUSA05254_00/uYDGxnU7jjAybziaU1ZYl1wELfpJj7Ia.png",
+      "detalheadd": "https://www.xbox.com/pt-br/games/store/darkest-dungeon/bxkvn6g9c5wj"
+    }
+  ]
+}

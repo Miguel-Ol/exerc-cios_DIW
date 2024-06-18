@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Média</title>
+</head>
+
+<body>
+
+<h1>Calculadora de Média</h1>
+
+<script>
+function nconf(num) {
+    let numver = parseFloat(num);
+
+    if (!isNaN(numver)) {
+        return numver;
+    } else {
+        console.log('Erro: A variável deve ser um número.');
+        return false;
+    }
+}
+
+alert("Informe as notas para a média");
+
+do {
+    var num1 = nconf(prompt("Digite o primeiro número:"));
+} while (num1 === false);
+do {
+var num2 = nconf(prompt("Digite o segundo número:"));
+} while (num2 === false);
+do {
+var num3 = nconf(prompt("Digite o terceiro número:"));
+} while (num3 === false);
+
+var media = (parseInt(num1) + parseInt(num2) + parseInt(num3)) / 3;
+
+alert("A média dos números é: " + media);
+</script>
+
+</body>
+</html> 
